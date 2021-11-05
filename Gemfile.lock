@@ -87,6 +87,7 @@ GEM
       execjs
     coffee-script-source (1.12.2)
     concurrent-ruby (1.1.9)
+    content_disposition (1.0.0)
     crass (1.0.6)
     devise (4.8.0)
       bcrypt (~> 3.0)
@@ -94,6 +95,8 @@ GEM
       railties (>= 4.1.0)
       responders
       warden (~> 1.2.3)
+    down (5.2.4)
+      addressable (~> 2.8)
     erubi (1.10.0)
     execjs (2.8.1)
     ffi (1.15.4)
@@ -231,6 +234,9 @@ GEM
       childprocess (>= 0.5, < 5.0)
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2)
+    shrine (3.4.0)
+      content_disposition (~> 1.0)
+      down (~> 5.1)
     spring (2.1.1)
     spring-watcher-listen (2.0.1)
       listen (>= 2.7, < 4.0)
@@ -293,6 +299,7 @@ DEPENDENCIES
   rails (~> 5.2.6)
   sass-rails (~> 5.0)
   selenium-webdriver
+  shrine
   spring
   spring-watcher-listen (~> 2.0.0)
   turbolinks (~> 5)
